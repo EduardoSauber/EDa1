@@ -48,7 +48,7 @@ void pesquisarNomeMusica(char pesquisa[80],tipoBanda bandas[50],int n){
     // verificar se a pesquisa teve algum resultado
     if(res_pesquisa == 0){
         // se não for encontrado nenhuma musica
-        printf("Musica nao encontrada\n");
+        printf("Musica nao cadastrada\n");
     }
 }
 
