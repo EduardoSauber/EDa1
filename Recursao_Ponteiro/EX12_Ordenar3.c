@@ -4,16 +4,15 @@ void swapmax3(int *a,int *b,int *c){
     int temp;
 
     if (*a < *b){
-
-        if (*b < *c){
-        temp = *a;
-        *a = *c;
-        *c = temp;
-        } else{
         temp = *a;
         *a = *b;
         *b = temp;
-        }
+    }
+
+    if (*a < *c){
+        temp = *a;
+        *a = *c;
+        *c = temp;
     }
     
     if (*b < *c){
@@ -23,14 +22,13 @@ void swapmax3(int *a,int *b,int *c){
     }
 }
 
-
 /*
 int main(){
-    int teste_a = 3;
-    int teste_b = 6;
-    int teste_c = 12;
+    int teste_a = 26;
+    int teste_b = 4;
+    int teste_c = 8;
 
-    printf("a: %d\nb: %d\nc: %d\n",teste_a,teste_b,teste_c);
+    printf("a: %d\nb: %d\nc: %d\n\n",teste_a,teste_b,teste_c);
     swapmax3(&teste_a,&teste_b,&teste_c);
     printf("a: %d\nb: %d\nc: %d\n",teste_a,teste_b,teste_c);
 }
