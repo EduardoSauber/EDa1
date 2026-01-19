@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 /*
+NA HORA Q MANDAR ISSO PRO MOJ APAGA OS COMENTARIOS PQ ELE RETORNA COMPILATION ERROR DE FOR E WHILE KKKKKKKKKKKKKKKKKKKKKKKKKK
+*/
+
+/*
 verificar se existe um par de caracteres separado por outro caracter.
 Ex.: 
 "axa" - 1 par de 'a'

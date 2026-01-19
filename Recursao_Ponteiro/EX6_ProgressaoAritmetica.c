@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+NA HORA Q MANDAR ISSO PRO MOJ APAGA OS COMENTARIOS PQ ELE RETORNA COMPILATION ERROR DE FOR E WHILE KKKKKKKKKKKKKKKKKKKKKKKKKK
+*/
+
 int pa_recursiva(int *v, int primeiro, int ultimo){
     /*
     o vetor 'v' contem n elementos
