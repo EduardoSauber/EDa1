@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+CODIGO MOSTRADO NA AULA DE FILAS
+
+
+*/
+
 int TAM = 5;
 
 void criarFila(int fila[], int N, int *p, int *u){
